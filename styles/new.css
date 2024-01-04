@@ -1,3 +1,45 @@
-h2{
-    color: blueviolet;
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.perent{
+    padding: 50px 20px 20px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.child{
+    padding: 20px;
+    background-color: rgb(3, 104, 64); 
+    width: 33.33%;  
+}
+
+.child_1{
+    padding: 20px;
+    background-image: url('../images/natural.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 33%;
+}
+.passion{
+    padding: 20px 60px 20px 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+
+.child_2{
+    padding: 20px;
+    background-image: url('../images/waterflow.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:33.33%;
+}
+.child_3{
+    padding: 20px;
+    background-color: rgb(11, 119, 158);
+    width: 33%;
+
 }
